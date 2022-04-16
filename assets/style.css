@@ -58,6 +58,10 @@ section {
 } 
 
 .intro {
+    display: flex;
+}
+
+.intro-text {
     display:flex;
     align-items: flex-start;
     justify-content: center;
@@ -68,7 +72,7 @@ section {
     width: 30%;
 }
 
-.intro-text {
+.intro-par {
     line-height: 1.7;
     width: 80%;
     font-size: 20px;
@@ -76,31 +80,14 @@ section {
     text-align: right;
 }
 
-/*Section main style*/
-
-
-.about-me-intro {
-    display: flex;
-}
-
 .contact-info{
+    display: flex;
+    justify-content: center;
     line-height: 1.7;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
-    text-align:justify;
-}
-.contact-info ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.5vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.contact-info nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content : space-between;
-    align-items: center;
-    list-style: none;
-}
+
+
